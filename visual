@@ -1,0 +1,129 @@
+Below is **very simple theory of Data Visualization** and **similar plotting functions**, written **point-wise** for **practical exam / viva** ✅
+
+---
+
+## 🔹 What is Data Visualization?
+
+* Data Visualization is the graphical representation of data
+* It helps to **understand patterns, trends, and relationships**
+* Makes data **easy to interpret** using charts and graphs
+
+---
+
+## 🔹 Why Visualization is Used?
+
+* To identify trends and patterns
+* To compare values
+* To detect outliers
+* To present data clearly
+
+---
+
+## 🔹 Common Visualization Types & Functions (Matplotlib)
+
+### 📈 1. Line Plot
+
+**Use:** Shows trend over time or sequence
+
+```python
+plt.plot(x, y)
+```
+
+**Similar functions:**
+
+* `plt.line()` (via seaborn)
+
+---
+
+### 📊 2. Bar Chart
+
+**Use:** Compares different categories
+
+```python
+plt.bar(x, y)
+```
+
+**Similar functions:**
+
+* `plt.barh()` → Horizontal bar chart
+
+---
+
+### 🔵 3. Scatter Plot
+
+**Use:** Shows relationship between two variables
+
+```python
+plt.scatter(x, y)
+```
+
+**Similar functions:**
+
+* `plt.scatter()` with size or marker changes
+
+---
+
+### 📊 4. Histogram
+
+**Use:** Shows data distribution
+
+```python
+plt.hist(data)
+```
+
+**Similar functions:**
+
+* `plt.hist(data, bins=10)`
+* `plt.bar()` (for frequency manually)
+
+---
+
+### 🟢 5. Pie Chart
+
+**Use:** Shows proportion or percentage
+
+```python
+plt.pie(values)
+```
+
+**Similar functions:**
+
+* `plt.pie(values, autopct='%1.1f%%')`
+
+---
+
+### 🟣 6. Box Plot
+
+**Use:** Detects outliers and data spread
+
+```python
+plt.boxplot(data)
+```
+
+**Similar functions:**
+
+* `plt.violinplot()`
+
+---
+
+## 🔹 Common Plot Customization Functions
+
+* `plt.title()` → Adds title
+* `plt.xlabel()` → X-axis label
+* `plt.ylabel()` → Y-axis label
+* `plt.legend()` → Shows legend
+* `plt.show()` → Displays plot
+
+---
+
+## 🔹 One-Line Viva Answer
+
+> Data visualization represents data graphically to identify trends, patterns, and comparisons using plots like line, bar, scatter, and histogram.
+
+If you want:
+
+* **2-line ultra-short theory**
+* **visualization program**
+* **viva MCQs**
+
+tell me 😊

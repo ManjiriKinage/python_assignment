@@ -1,0 +1,43 @@
+Functions & Methods Used (Functionality)
+
+pd.DataFrame()
+→ Converts dictionary data into a table (DataFrame)
+
+fillna()
+→ Fills missing values in a column
+→ Here, missing Age is filled with mean age
+
+mean()
+→ Calculates average value of a column
+
+drop_duplicates()
+→ Removes duplicate rows from the dataset
+
+astype(int)
+→ Converts column data type to integer
+
+info()
+→ Shows dataset structure, column names, and data types
+
+describe()
+→ Gives statistical summary (mean, min, max, etc.)
+
+🔹 What is EDA? (Very Short)
+
+EDA (Exploratory Data Analysis) is used to:
+
+Understand the dataset
+
+Find patterns and trends
+
+Check data quality
+
+Get statistical insights before analysis or modeling
+
+🔹 EDA Used in This Code
+
+info() → Dataset overview
+
+describe() → Statistical summary
+
+mean() → Average salary
