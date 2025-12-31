@@ -3,7 +3,7 @@ import pandas as pd
 data = pd.read_csv("ages.csv")
 
 ages = data["Age"]
-
+print(ages)
 print("Average Age:", ages.mean())
 print("Mean Age:", ages.mean())
 print("Median Age:", ages.median())
